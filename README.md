@@ -1,5 +1,6 @@
 # json-vs-gob
 
+Mac
 ```shell
-go test -bench=. -test.benchmem -test.benchtime=10000x -test.count=1 ./...
+go test -bench=./... -test.benchmem
 ```
